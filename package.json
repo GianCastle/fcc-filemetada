@@ -1,0 +1,29 @@
+{
+  "name": "fcc-filemetada",
+  "version": "1.0.0",
+  "description": "An exercise for the Free Code Camp Backend Certification",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giancastle/fcc-filemetada.git"
+  },
+  "keywords": [
+    "js",
+    "fcc",
+    "backend",
+    "node"
+  ],
+  "author": "Giancarlos Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giancastle/fcc-filemetada/issues"
+  },
+  "homepage": "https://github.com/giancastle/fcc-filemetada#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "multer": "^1.1.0"
+  }
+}

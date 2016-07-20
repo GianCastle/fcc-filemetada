@@ -1,2 +1,6 @@
 # fcc-filemetada
-Upload a file and recieve the file size in bytes.
+##Upload a file and recieve the file size in bytes.
+
+- User Story: I can submit a FormData object that includes a file upload.
+
+- User Story: When I submit something, I will receive the file size in bytes within the JSON response
