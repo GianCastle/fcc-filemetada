@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+  head
+    title File Metadata
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css')
+  body
+    h1.light File Metadata
+    .row
+      .col.s12
+        .container
+          form(action='/upload', method='POST', enctype='multipart/form-data')
+            .file-field.input-field
+              .btn.green
+                span File
+                input(type='file', name='file-input')
+              
+              .file-path-wrapper
+                input.file-path.validate(type='text')
+             
+            .col.s12    
+              .container 
+                input.btn.green(type="submit")
+    script(src='https://code.jquery.com/jquery-latest.min.js')        
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js')    
